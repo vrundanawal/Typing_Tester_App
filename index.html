@@ -19,13 +19,17 @@
 </audio>
 
 <!-- MAIN HEADER -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark text-white">
+    <a class="navbar-brand" href="#"><h3>Typing Tester App</h3></a>
+  </nav>
+<!-- 
 <header class="main-header ">
     <h2> Typing Tester App</h2>
-</header>
+</header> -->
 
-<div class="container-fluid">
+<div class="container-fluid mt-5">
     <div class="row">
-            <div class="col-md-9 mt-3">
+            <div class="col-md-9 col-sm-12 mt-3">
             <div class="card t-card">
                 <div class="card-body">
                     <section class="side-1-section">
@@ -34,15 +38,12 @@
                                 <p id="original-text">Thanks for using this app.</p>
                             </div>
                         </section>
-
                         <br>
                         <section class="text-area-section">
                             <div class="text-area-div">
-                                <!-- Disable Paste Option -->
-                                <textarea onpaste="return false" id="text-area" rows="4" cols="53" placeholder="The Clock starts when you starts typing.."></textarea>
+                                <textarea onpaste="return false" id="text-area" rows="5" cols="55" placeholder="The Clock starts when you starts typing.."></textarea>
                             </div>
                         </section>
-
                         <br>
                         <section class="result-section">
                             <div class="result-section-div">
@@ -67,7 +68,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mt-4">
+        <div class="col-md-3 col-sm-12 mt-4">
             <section class="side-2-section">
                 <button class="btn btn-primary btn-block mt-2" onclick="changeText(0)">Lesson 1</button>
                 <button class="btn btn-success btn-block mt-2" onclick="changeText(1)">Lesson 2</button>
@@ -85,9 +86,9 @@
 </div>
 
 
-<footer>
+<footer class="py-3">
     <h4>Copyright &copy; 2021 </h4>
-    <p>All Rights Reserved</p>
+    <br>
     <small>Developed & Maintained by <a href="https://www.linkedin.com/in/vrunda-nawal1/" target="_blank">Vrunda Nawal</a></small>
 </footer>
 

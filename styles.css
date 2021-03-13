@@ -1,7 +1,9 @@
 body{
     font-family: 'Arial Unicode MS', sans-serif;
     margin: 0;
+    height: 100vh;
 }
+
 
 .main-header{
     font-family: 'Ubuntu', sans-serif;
@@ -10,7 +12,6 @@ body{
     text-align: center;
     padding: 15px;
     font-size: 20px;
-   
    
 }
 
@@ -56,10 +57,12 @@ body{
 .result-section-div{
     margin: 0 auto; /* place center */
     max-width: 750px;
+    text-align: center;
 }
 
 .result-section-div span{
-    font-size: 40px;
+    font-size: 30px;
+    
 }
 
 .result-section-div button{
@@ -83,10 +86,10 @@ body{
 }
 
 .timer{
-    font-family: "Old English Text MT",sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #minutes,#seconds,#m-seconds{
-    font-size: 50px;
+    font-size: 30px;
     font-family: "Arial Unicode MS",sans-serif;
     text-shadow: 2px 2px green;
 }
@@ -137,3 +140,7 @@ footer small{
     box-shadow: 0 0 10px blueviolet !important;
 }
 
+textarea {
+    max-width: 100%;
+    height: auto;
+  }
